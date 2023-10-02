@@ -1,61 +1,113 @@
-body{
+body {
     background: #000000;
-    font-family: "Nunito",sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
-.blurb h2{
+.blurb h2 {
     color: #ea1c2c;
     font-weight: 100;
     font-size: 2.5rem;
 }
 
-.blurb p{
+.blurb p {
     color: #909bc0;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
 }
 
-.content{
+.content {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-#mainNavbar{
+#mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
 }
-#mainNavbar .nav-link{
+
+#mainNavbar .nav-link {
     color: white;
 }
-#mainNavbar .nav-link:hover{
+
+#mainNavbar .nav-link:hover {
     color: #ea1c2c;
-}
-#mainNavbar .navbar-brand{
-    color: #ea1c2c;
-    
 }
 
-#headingGroup span{
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+
+}
+
+#headingGroup span {
     color: #ea1c2c;
     font-size: 1.5rem;
 }
 
-#headingGroup h1{
+#headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
 
 }
 
-.navbar.scrolled{
-    background: rgb(200, 33, 200) ;
+.navbar.scrolled {
+    background: rgb(200, 33, 200);
     transition: background 500ms;
 }
 
-@media(max-width:1200px){
-    #headingGroup h1{
+@media(max-width:1200px) {
+    #headingGroup h1 {
         font-weight: 100;
         font-size: 3rem;
-    
-    }   
+
+    }
+}
+
+footer {
+    background-color: rgb(200, 33, 200);
+}
+.links{
+    margin-right: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.links a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.logos{
+    margin-right: 15px;
+}
+.links p ,.logos p{
+    font-size: 25px;
+    color: #fff;
+}
+.info p {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    padding: 5px;
+    color: #fff;
+}
+
+.logos a {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(24, 25, 26);
+    color: white;
+    border-radius: 50%;
+    line-height: 47px;
+}
+.bottom{
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid ;
+}
+.links ul li:hover{
+text-decoration: underline;
 }
