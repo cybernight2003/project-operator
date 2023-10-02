@@ -108,6 +108,6 @@ footer {
     margin-bottom: 10px;
     border-bottom: 1px solid ;
 }
-.links ul li:hover{
+.links a:hover{
 text-decoration: underline;
 }
